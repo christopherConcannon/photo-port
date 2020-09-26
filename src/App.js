@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav'
 import Gallery from './components/Gallery'
 import About from './components/About'
-import Contact from './components/Contact'
+import ContactForm from './components/Contact'
 
 function App() {
   // you don't have to assign a method name to set the state, you can just use useState to store the initial state.  here the array of objects is assigned to the variable categories which is the only member of the array returned by useState (which usually has 2 elements)
@@ -28,17 +28,29 @@ function App() {
   
   const [ currentCategory, setCurrentCategory ] = useState(categories[0]);
 
+  const [ contactSelected, setContactSelected ] = useState(false)
+
   return (
     <div>
       <Nav 
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
       />
       <main>
-        <Contact />
+        {/* <Contact />
         <Gallery currentCategory={currentCategory}/>
-        <About />
+        <About /> */}
+        {!contactSelected ? (
+          <>
+            <Gallery currentCategory={currentCategory} />
+            <About />
+          </>
+        ) : (
+          <ContactForm />
+        )}
       </main>
     </div>
   );
