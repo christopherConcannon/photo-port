@@ -4,6 +4,7 @@ import Gallery from './components/Gallery'
 import About from './components/About'
 
 function App() {
+  // you don't have to assign a method name to set the state, you can just use useState to store the initial state.  here the array of objects is assigned to the variable categories which is the only member of the array returned by useState (which usually has 2 elements)
   const [ categories ] = useState([
 		{
 			name        : 'commercial',
@@ -34,7 +35,7 @@ function App() {
         currentCategory={currentCategory}
       />
       <main>
-        <Gallery/>
+        <Gallery currentCategory={currentCategory}/>
         <About/>
       </main>
     </div>

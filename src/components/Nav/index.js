@@ -3,6 +3,7 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
   const {
+    // []?  default?
     categories = [],
     setCurrentCategory,
     currentCategory
