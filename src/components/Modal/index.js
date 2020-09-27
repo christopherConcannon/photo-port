@@ -1,7 +1,11 @@
 import React from 'react'
 
+function handleClick() {
+
+}
+
 // destructure currentPhoto off of props
-function Modal({currentPhoto}) {
+function Modal({currentPhoto, onClose}) {
   const { name, category, description, index } = currentPhoto
   return (
     <div className="modalBackdrop">
@@ -11,7 +15,7 @@ function Modal({currentPhoto}) {
         <p>
           {description}
         </p>
-        <button type="button">
+        <button type="button" onClick={onClose}>
           Close this modal
         </button>
       </div>
