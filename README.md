@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Photo Port
 
-## Available Scripts
+![MIT license badge](https://img.shields.io/badge/license-MIT-green)
 
-In the project directory, you can run:
+## Description
+A brochure website featuring the works of a photographic artist.  Displays works filtered by category and features a contact form.  Built using React, HTML5, and CSS3.
 
-### `npm start`
+##### Homescreen
+![Homescreen Screenshot](./assets/images/screenshot.png)
+##### About Me Page
+![About Me Page Screenshot](./assets/images/screenshot2.png)
+##### Contact Page
+![Contact Page Screenshot](./assets/images/screenshot3.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Visit site [here](https://christopherconcannon.github.io/photo-port/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Technologies](#technologies)
+  * [Contributing](#contributing)
+  * [Testing](#testing)
+  * [Questions](#questions)
+  
+## Installation
+Clone project to a directory on your local machine and cd into photo-port directory.  Run <$ npm install> to install dependencies.  See package.json for other available scripts.
 
-### `npm test`
+## Usage
+Run <$ npm start> to launch application on localhost development server.  Navigate through site by clicking on links.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License 
+This project is covered under the MIT license 
 
-### `npm run build`
+## Technologies 
+HTML, CSS, React
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
+To see the guidelines adopted for contributing to this project, please view the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.txt)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Testing
+Tests coming soon
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Questions
+Visit me at GitHub  
+[christopherConcannon](https://github.com/christopherConcannon)
+  
+If you have any questions or would like to contact me, please email me at  
+[cmcon@yahoo.com](mailto:cmcon@yahoo.com)

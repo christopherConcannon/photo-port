@@ -11,6 +11,9 @@ function Nav(props) {
     setContactSelected
   } = props;
   
+  // To update the document.title, which will change the tab's text content, we'll use the currentCategory value that will reflect the user's category selection. If we simply reassign document.title = currentCategory, we'll change the value of document.title. But will this cause a re-render of the component?—no, it won't.
+  // We must use a Hook to trigger a re-render on a variable value change. In this step, we will introduce a new Hook called useEffect. The main difference between useEffect and useState is that useEffect is an API that reflects the lifecycle methods of the component, such as when the component mounts, unmounts, or updates.
+  // the first argument is the callback function, and the second argument is an array with a single element, currentCategory. The second argument directs the hook to re-render the component on changes to the value of this state. In other words, if currentCategory changes now, the component will re-render so that the change in document.title will be visible to the user. 
   useEffect(() => {
     document.title = capitalizeFirstLetter(currentCategory.name);
   }, [currentCategory])
